@@ -13,7 +13,7 @@ The i2c_monitor.c under src/i2c_monitor directory.
   
     i2c_mon_create(&i2c_mon);
     
-  3. Assigned the sda and scl pin to the i2c_mon
+  3. Assigned the sda and scl pin to the i2c_mon instance.
   
     i2c_mon.sda_pin_set(&i2c_mon, GPIOD, GPIO_PIN_10);
     i2c_mon.scl_pin_set(&i2c_mon, GPIOD, GPIO_PIN_11);
